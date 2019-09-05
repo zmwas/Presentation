@@ -11,15 +11,7 @@ import android.webkit.WebChromeClient
 
 
 
-class MainActivity : AppCompatActivity(),ServiceConnection {
-    override fun onServiceDisconnected(name: ComponentName?) {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
-    }
-
-    override fun onServiceConnected(name: ComponentName?, service: IBinder?) {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
-    }
-
+class MainActivity : AppCompatActivity(), {
     lateinit var webView:WebView
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
