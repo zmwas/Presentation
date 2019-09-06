@@ -11,7 +11,7 @@ import android.webkit.WebChromeClient
 
 
 
-class MainActivity : AppCompatActivity(), {
+class MainActivity : AppCompatActivity() {
     lateinit var webView:WebView
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
